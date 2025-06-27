@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title >Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style-IMC.css">
+    </head>
+
+<body>
+      <header>
+    <h1> Técnico em Desenvolvimento de Sistema </h1>
+    <a href="index.html" class="link">Voltar para o portifólio</a>
+    </header>
+
+    
+        <div class="container">
+            <h1 style="color: rgb(64, 124, 236)">Vamos Calcular o IMC</h1>
+            <label for ="peso"> Peso (Kg): </label>
+            <input type="number" id="peso" placeholder="Ex: 71">
+
+            <label for="altura">Altura (m): </label>
+            <input type="number" step="0.01" id="altura" placeholder="Ex: 1.75">
+            <button onclick="calcularIMC()">Calcular</button>
+            <div id="resultado"></div>
+            
+        </div>
+  
+    <script src="js/script-IMC.js"></script>
+    <footer>
+      <p>Arthur Henrique Lima</p>
+      <p>Serviço Nacional de Aprendizagem Industrial - Senai</p>
+    </footer>
+
+    </body>
+    </html> 
