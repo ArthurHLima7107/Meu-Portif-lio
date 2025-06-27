@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;/* Define a fonte do site/pagina*/
+    padding: 20px;
+    background: linear-gradient(90deg,rgb(0, 17, 255) 0%, rgb(204, 0, 255) 100%); /*Define a cor do fundo*/
+    justify-content: center; /*Para ajustar a posição do quadrado*/
+    padding-top: 50px; /*Para definir o espaçamento*/
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color:rgb(255, 255, 255); /*Cor do botão*/
+    color: rgb(0, 0, 0); /*Cor do texto no botão*/
+    border: 2px; /*Define a borda do botão*/
+    cursor: pointer; /*Formato do botão ao passar pelo botão*/
+    margin: 50px;
+    border-radius: 25px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    left: 0;
+  }
+
+  header h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+.container {
+    background-color:#f0f0f0; /*Definir a cor da fonte*/
+    padding: 30px; /*Adicionar espaço interno*/
+    border-radius: 10px; /*Arrendodar as bordas*/
+    box-shadow: 0 0 10px rgba(0, 0, 1, 1.2); /*Colocar sombra ao redor*/
+    width:600px; /*Definir a largura*/
+    text-align: center; /*Alinha no centro da tela*/
+    margin: 200px;
+}
+
+input,button {
+    width: 200px; /*Ocupa a largura do container*/
+    margin: 10px 0; /*Espaçamento de 10px vertical entre eles*/
+    padding: 10px 0; /*Espaçamento de 10px para cima e para baixo*/
+    font-size: 16px; /*Tamanho da fonyte como 16px*/
+}
+
+button:hover { /*animação mouse*/
+    background-color: rgb(25, 219, 161); /*Cor do botão após passar o mouse por cima*/
+}
+
+#resultado {
+    margin-top: 15px; /* Adiciona uma margem superior de 15 pixels ao elemento com id "resultado" */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    padding-top: 0px;
+    position: fixed;
+    width: 100%;      /* Ocupa toda a largura da tela */
+    bottom: 0;        /* Fica colado na parte de baixo */
+    height: auto;     /* A altura pode se ajustar ao conteúdo */
+    left: 0;
+    right: 0;
+}
+.link {
+    color:white
+}
+
+#listaCompras > li {
+    display: flex;
+    text-align: start;
+    justify-content: center;
+}
