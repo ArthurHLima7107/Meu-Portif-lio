@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;/* Define a fonte do site/pagina*/
     padding: 20px;
       
-    background-color: rgb(25, 37, 212); /*Define a cor do fundo*/
+    background-color: #59C3C3; /*Define a cor do fundo*/
     justify-content: center; /*Para ajustar a posição do quadrado*/
     padding-top: 50px; /*Para definir o espaçamento*/
     text-align: center;
@@ -10,8 +10,8 @@ body {
 }
 
 button {
-    background-color:rgb(255, 255, 255); /*Cor do botão*/
-    color: rgb(0, 0, 0); /*Cor do texto no botão*/
+    background-color:darkcyan; /*Cor do botão*/
+    color: #59C3C3; /*Cor do texto no botão*/
     border: 2px; /*Define a borda do botão*/
     cursor: pointer; /*Formato do botão ao passar pelo botão*/
     margin: 50px;
@@ -25,17 +25,18 @@ input {
 
 
 header {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color:darkcyan;
+    color: #59C3C3;
     font-size: 14px;
     width: 100%;
     padding: 10px;
     text-align: center;
-    top: 0;
     position: fixed;
     z-index: 100;
     right: 0px;
     left: 0;
+    height: 50px;
+    top: 0px;
   }
 
   header h1 {
@@ -69,15 +70,15 @@ button:hover { /*animação mouse*/
     font-weight: bold; /* Deixa o texto em negrito */
 }
 footer {
-    background-color: black;
-    color: white;
+    background-color: darkcyan;
+    color: #59C3C3;
     text-align: center;
     font-style: normal;
     padding-top: 0px;
     position: fixed;
     width: 100%;      /* Ocupa toda a largura da tela */
     bottom: 0;        /* Fica colado na parte de baixo */
-    height: auto;     /* A altura pode se ajustar ao conteúdo */
+    height: 75px;     /* A altura pode se ajustar ao conteúdo */
     left: 0;
     right: 0;
 }

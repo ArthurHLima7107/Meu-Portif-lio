@@ -1,0 +1,115 @@
+body{
+    font-family: "Times New Roman", Times, serif;  /* Define a fonte do site/pagina*/
+    background-color: white;/*Define a cor do fundo*/
+    display: flex; /*Define como um elemento é exibido na página*/
+    justify-content: center; /*Para ajustar a posição do quadrado*/
+    padding-top: 50px; /*Para definir o espaçamento*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0062ff, #454545, #ffffff);
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    background-color:#f0f0f0; /*Definir a cor da fonte*/
+    padding: 30px; /*Adicionar espaço interno*/
+    border-radius: 10px; /*Arrendodar as bordas*/
+    box-shadow: 0 0 10px rgba(0, 0, 1, 1.2); /*Colocar sombra ao redor*/
+    width:600px; /*Definir a largura*/
+    text-align: center; /*Alinha no centro da tela*/
+}
+
+input,button {
+    width: 100%; /*Ocupa a largura do container*/
+    margin: 10px 0; /*Espaçamento de 10px vertical entre eles*/
+    padding: 10px 0; /*Espaçamento de 10px para cima e para baixo*/
+    font-size: 16px; /*Tamanho da fonyte como 16px*/
+}
+
+button {
+    background-color:rgb(64, 124, 236); /*Cor do botão*/
+    color: rgb(1, 25, 46); /*Cor do texto no botão*/
+    border: 2px; /*Define a borda do botão*/
+    cursor: pointer; /*Formato do botão ao passar pelo botão*/
+}
+
+button:hover { /*animação mouse*/
+    background-color: rgb(30, 185, 139); /*Cor do botão após passar o mouse por cima*/
+}
+
+#resultado {
+    margin-top: 15px; /* Adiciona uma margem superior de 15 pixels ao elemento com id "resultado" */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #aad4ff;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            color: #0229a8;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #000;
+        }
+
+        .buttons a {
+            text-decoration: none;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 10px 10px 0 0;
+            padding: 12px 24px;
+            background-color: #0047ab;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #0229a8;
+        }
+
+        
